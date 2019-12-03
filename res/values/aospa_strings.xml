@@ -315,4 +315,8 @@
     <string name="always_on_display_schedule_mixed_sunset">Turns on from sunset till a time</string>
     <string name="always_on_display_schedule_mixed_sunrise">Turns on from a time till sunrise</string>
 
+    <!-- Less boring heads up -->
+    <string name="less_boring_heads_up_title">Saner heads up</string>
+    <string name="less_boring_heads_up_summary">Show heads up only for calls, messages, alarms, reminders and priority conversations</string>
+
 </resources>
