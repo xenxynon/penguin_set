@@ -18,6 +18,10 @@
     <!-- Paranoid Android version -->
     <string name="aospa_version">PenguinOS version</string>
 
+    <!-- Penguin maintainer -->
+    <string name="maintainer">Maintainer</string>
+    <string name="penguin_maintainer" translatable="false">Unofficial Maintainer</string>
+
     <!-- DC Dimming -->
     <string name="dc_dimming_title">DC Dimming</string>
     <string name="dc_dimming_info">Reduces eye strain in low light conditions by minimizing screen flicker. May result in reduced image quality and poor color production, or higher power consumption.</string>
