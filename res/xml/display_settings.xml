@@ -142,6 +142,11 @@
             android:summary="@string/force_high_refresh_rate_desc"
             settings:controller="com.android.settings.display.ForcePeakRefreshRatePreferenceController"/>
 
+        <SwitchPreference
+            android:key="show_refresh_rate"
+            android:title="@string/show_refresh_rate"
+            android:summary="@string/show_refresh_rate_summary" />
+
     </PreferenceCategory>
     -->
 
