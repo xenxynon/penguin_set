@@ -98,7 +98,7 @@ public class LabSettings extends SettingsPreferenceFragment implements
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.penguin;
+        return MetricsProto.MetricsEvent.PENGUIN;
     }
 
     public static final SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =

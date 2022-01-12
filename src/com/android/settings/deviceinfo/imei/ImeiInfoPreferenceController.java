@@ -339,4 +339,3 @@ public class ImeiInfoPreferenceController extends BasePreferenceController {
         return (halVersion > makeRadioVersion(2, 0)) ? true:false;
     }
 }
-
