@@ -22,11 +22,17 @@
         settings:searchable="false"
         settings:layout="@layout/pengu_card_top_abt" />
 
-        <!-- Unlock FPS for specific games -->
-        <co.aospa.framework.preference.SystemSettingSwitchPreference
-            android:key="persist.sys.pixelprops.games"
-            android:title="@string/use_games_spoof_title"
-            android:summary="@string/use_games_spoof_summary"
-            android:defaultValue="false" />
+    <!-- Unlock FPS for specific games -->
+    <co.aospa.framework.preference.SystemSettingSwitchPreference
+        android:key="persist.sys.pixelprops.games"
+        android:title="@string/use_games_spoof_title"
+        android:summary="@string/use_games_spoof_summary"
+        android:defaultValue="false" />
+
+    <co.aospa.framework.preference.SystemSettingSwitchPreference
+        android:key="advanced_reboot"
+        android:title="@string/global_actions_advanced_reboot_title"
+        android:summary="@string/global_actions_advanced_reboot_summary"
+        android:defaultValue="false" />
 
 </PreferenceScreen>
