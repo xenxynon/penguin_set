@@ -76,6 +76,15 @@
         settings:keywords="@string/keywords_battery_info"
         settings:layout="@layout/pengu_card_sub_bot"/>
 
+    <!-- QS Battery estimates -->
+    <co.aospa.framework.preference.SystemSettingSwitchPreference
+        android:key="qs_show_battery_estimate"
+        android:title="@string/qs_show_battery_estimate_title"
+        android:summaryOn="@string/qs_show_battery_estimate_summary_on"
+        android:summaryOff="@string/qs_show_battery_estimate_summary_off"
+        android:defaultValue="true" 
+        settings:layout="@layout/pengu_card_sub_sin" />
+
     <Preference
         android:icon="@drawable/ic_settings_system_dashboard_acc"
         android:key="power_usage_footer"
