@@ -262,4 +262,9 @@
     <string name="pattern_da_da_dzzz" translatable="false">da-da-dzzz</string>
     <string name="pattern_da_dzzz_da" translatable="false">da-dzzz-da</string>
 
+    <!-- penguin Lab -->
+    <string name="penguin_lab_title">PenguinOS Laboratory</string>
+    <string name="penguin_lab_footer">These features are experimental.</string>
+    <string name="penguin_lab_summary">Experimental features</string>
+
 </resources>

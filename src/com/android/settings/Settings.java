@@ -523,4 +523,9 @@ public class Settings extends SettingsActivity {
      * Activity for PreviouslyConnectedDeviceDashboardFragment
      */
     public static class PreviouslyConnectedDevicesActivity extends SettingsActivity { /* empty */ }
+
+    /**
+     * Activity for Penguin Lab
+     */
+    public static class StartLabActivity extends SettingsActivity {}
 }

@@ -185,6 +185,14 @@
         settings:highlightableMenuKey="@string/menu_key_accounts"
         settings:controller="com.android.settings.accounts.TopLevelAccountEntryPreferenceController"/>
 
+   <com.android.settings.widget.HomepagePreference
+        android:fragment="com.penguin.settings.laboratory.LabSettings"
+        android:icon="@drawable/ic_penguin_lab"
+        android:key="top_level_lab"
+        android:order="5"
+        android:title="@string/penguin_lab_title"
+        android:summary="@string/penguin_lab_summary"/>
+
     <com.android.settings.widget.HomepagePreference
         android:fragment="com.android.settings.system.SystemDashboardFragment"
         android:icon="@drawable/ic_settings_system_dashboard_white"

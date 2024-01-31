@@ -5092,6 +5092,21 @@ SPDX-License-Identifier: BSD-3-Clause-Clear -->
             </intent-filter>
         </receiver>
 
+       <!-- Penguin Labs -->
+       <activity android:name="Settings$StartLabActivity"
+            android:label="@string/penguin_lab_title"
+            android:exported="true"            
+            android:icon="@drawable/ic_penguin_lab">
+            <intent-filter>
+                <action android:name="com.android.settings.action.SETTINGS" />
+                <category android:name="android.intent.category.DEFAULT" />                
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.penguin.settings.laboratory.LabSettings" />
+            <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
+                android:value="true" />
+        </activity>
+
         <!-- This is the longest AndroidManifest.xml ever. -->
     </application>
 </manifest>
