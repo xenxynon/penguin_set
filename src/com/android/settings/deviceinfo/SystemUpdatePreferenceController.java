@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.settings.system;
+package com.android.settings.deviceinfo;
 
 import static android.content.Context.CARRIER_CONFIG_SERVICE;
 import static android.content.Context.SYSTEM_UPDATE_SERVICE;
