@@ -24,8 +24,6 @@ import com.android.settings.core.BasePreferenceController;
 
 public class ParanoidAndroidVersionPreferenceController extends BasePreferenceController {
 
-    private static final String AOSPA_DISPLAY_VERSION_PROP = "ro.aospa.version";
-
     private final Context mContext;
 
     public ParanoidAndroidVersionPreferenceController(Context context, String key) {
@@ -40,7 +38,6 @@ public class ParanoidAndroidVersionPreferenceController extends BasePreferenceCo
 
     @Override
     public CharSequence getSummary() {
-        return SystemProperties.get(AOSPA_DISPLAY_VERSION_PROP,
-                mContext.getResources().getString(R.string.device_info_default));
+        return "Unity" + " " + "One";
     }
 }
