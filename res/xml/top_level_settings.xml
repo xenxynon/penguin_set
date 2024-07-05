@@ -20,13 +20,21 @@
     xmlns:settings="http://schemas.android.com/apk/res-auto"
     android:key="top_level_settings">
 
+   <com.android.settings.widget.HomepagePreference
+        android:fragment="com.penguin.settings.laboratory.LabSettings"
+        android:icon="@drawable/ic_pengu_lab"
+        android:key="top_level_lab"
+        android:order="-160"
+        android:title="@string/penguin_lab_title"
+        settings:layout="@layout/pengu_card_top"/>
+
     <com.android.settings.widget.HomepagePreference
         android:fragment="com.android.settings.network.NetworkDashboardFragment"
         android:icon="@drawable/ic_homepage_network"
         android:key="top_level_network"
         android:order="-150"
         android:title="@string/network_dashboard_title"
-        settings:layout="@layout/pengu_card_top"
+        settings:layout="@layout/pengu_card_mid"
         settings:highlightableMenuKey="@string/menu_key_network"
         settings:controller="com.android.settings.network.TopLevelNetworkEntryPreferenceController"/>
 
@@ -164,15 +172,6 @@
         android:title="@string/account_dashboard_title"
         settings:highlightableMenuKey="@string/menu_key_accounts"
         settings:controller="com.android.settings.accounts.TopLevelAccountEntryPreferenceController"/>
-
-   <com.android.settings.widget.HomepagePreference
-        android:fragment="com.penguin.settings.laboratory.LabSettings"
-        settings:layout="@layout/pengu_card_mid"
-        android:icon="@drawable/ic_penguin_lab"
-        android:key="top_level_lab"
-        android:order="5"
-        android:title="@string/penguin_lab_title"
-        android:summary="@string/penguin_lab_summary"/>
 
     <com.android.settings.widget.HomepagePreference
         android:fragment="com.android.settings.system.SystemDashboardFragment"
