@@ -4,6 +4,7 @@
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     android:layout_marginHorizontal="@dimen/pengu_cardview_padding"
+    android:layout_marginBottom="1dp"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
@@ -56,21 +57,29 @@
                 android:layout_alignLeft="@android:id/title"
                 android:layout_alignStart="@android:id/title" />
 
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentEnd="true"
-                android:src="@drawable/ic_bck" />
-
         </RelativeLayout>
 
         <LinearLayout
-            android:gravity="center_vertical"
-            android:orientation="vertical"
-            android:id="@android:id/widget_frame"
             android:layout_width="wrap_content"
-            android:layout_height="fill_parent"
-            android:layout_marginStart="18dp"
-            android:layout_marginEnd="18dp"/>
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:minWidth="64dp"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                app:cardBackgroundColor="@color/homepage_icon_bg"
+                app:cardElevation="0dp"
+                app:cardCornerRadius="99dp">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/pengu_chevron_right" />
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
     </LinearLayout>
 </LinearLayout>
