@@ -19,7 +19,8 @@
     <com.android.settingslib.widget.FooterPreference
         android:title="@string/penguin_lab_footer"
         android:selectable="false"
-        settings:searchable="false"/>
+        settings:searchable="false"
+        settings:layout="@layout/pengu_card_top_abt" />
 
         <!-- Unlock FPS for specific games -->
         <co.aospa.framework.preference.SystemSettingSwitchPreference

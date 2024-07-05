@@ -48,19 +48,6 @@ public class HardwareInfoPreferenceController extends BasePreferenceController {
                 ? AVAILABLE : UNSUPPORTED_ON_DEVICE;
     }
 
-    @Override
-    public CharSequence getSummary() {
-        if (Utils.isSupportCTPA(mContext)) {
-            String modelName = Utils.getString(mContext, Utils.KEY_MODEL);
-            if (null == modelName || modelName.isEmpty()) {
-                modelName = getDeviceModel();
-            }
-            return modelName;
-        }
-
-        return getDeviceModel();
-    }
-
     public static String getDeviceModel() {
         FutureTask<String> msvSuffixTask = new FutureTask<>(() -> DeviceInfoUtils.getMsvSuffix());
 

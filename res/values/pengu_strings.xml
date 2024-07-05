@@ -17,6 +17,7 @@
 <resources>
      <!-- Others Page -->
     <string name="other_setting">More</string>
+    <string name="battery_info_summary">view more information about battery</string>
 
      <!-- Model and Hardware -->
     <string name="net_info">Network</string>
