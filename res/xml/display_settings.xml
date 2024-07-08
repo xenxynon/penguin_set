@@ -257,6 +257,13 @@
             android:key="vr_display_pref"
             android:title="@string/display_vr_pref_title"
             android:fragment="com.android.settings.display.VrDisplayPreferencePicker"/>
-        
+
+        <Preference
+            android:key="network_traffic_state"
+            android:title="@string/network_traffic_state_title"
+            android:summary="@string/network_traffic_state_summary"
+            android:fragment="com.android.settings.network.NetworkTrafficSettings"
+            android:defaultValue="false" />
+ 
     </PreferenceCategory>
 </PreferenceScreen>
