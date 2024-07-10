@@ -40,11 +40,10 @@
                 android:targetClass="@string/additional_system_update_menu"/>
     </Preference>
 
-    <Preference
+    <com.penguin.widget.ShrinkablePreference
         android:key="ota_card"
         android:order="-100"
         settings:layout="@layout/pengu_tp_view">
-        <intent android:action="android.settings.SYSTEM_UPDATE_SETTINGS"/>
     </Preference>
 
     <PreferenceCategory
