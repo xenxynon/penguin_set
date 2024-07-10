@@ -42,39 +42,34 @@
         android:fragment="com.android.settings.fuelgauge.batteryusage.PowerUsageAdvanced"
         android:key="battery_usage_summary"
         android:title="@string/advanced_battery_preference_title"
-        settings:keywords="@string/keywords_battery_usage"
-	settings:layout="@layout/pengu_card_sub_top" />
+        settings:keywords="@string/keywords_battery_usage" />
 
     <Preference
         android:fragment="com.android.settings.fuelgauge.batterysaver.BatterySaverSettings"
         android:key="battery_saver_summary"
         android:title="@string/battery_saver"
         settings:keywords="@string/keywords_battery_saver"
-        settings:controller="com.android.settings.fuelgauge.BatterySaverController"
-        settings:layout="@layout/pengu_card_sub_mid" />
+        settings:controller="com.android.settings.fuelgauge.BatterySaverController" />
 
     <SwitchPreference
         android:key="battery_percentage"
         android:title="@string/battery_percentage"
         android:summary="@string/battery_percentage_description"
-        settings:controller="com.android.settings.display.BatteryPercentagePreferenceController"
-        settings:layout="@layout/pengu_card_sub_bot" />
+        settings:controller="com.android.settings.display.BatteryPercentagePreferenceController" />
 
     <Preference
         android:key="charging_control"
         android:title="@string/charging_control_title"
         android:summary="@string/charging_control_summary"
         android:fragment="com.android.settings.lineage.health.ChargingControlSettings"
-        settings:controller="com.android.settings.lineage.health.ChargingControlPreferenceController"
-        settings:layout="@layout/pengu_card_sub_top" />
+        settings:controller="com.android.settings.lineage.health.ChargingControlPreferenceController" />
 
     <Preference
         android:key="battery_info"
         android:title="@string/battery_info"
         android:summary="@string/battery_info_summary"
         android:fragment="com.android.settings.deviceinfo.batteryinfo.BatteryInfoFragment"
-        settings:keywords="@string/keywords_battery_info"
-        settings:layout="@layout/pengu_card_sub_bot"/>
+        settings:keywords="@string/keywords_battery_info" />
 
     <!-- QS Battery estimates -->
     <co.aospa.framework.preference.SystemSettingSwitchPreference
@@ -82,14 +77,11 @@
         android:title="@string/qs_show_battery_estimate_title"
         android:summaryOn="@string/qs_show_battery_estimate_summary_on"
         android:summaryOff="@string/qs_show_battery_estimate_summary_off"
-        android:defaultValue="true" 
-        settings:layout="@layout/pengu_card_sub_sin" />
+        android:defaultValue="true" />
 
-    <Preference
-        android:icon="@drawable/ic_settings_system_dashboard_acc"
+    <com.android.settingslib.widget.FooterPreference
         android:key="power_usage_footer"
-        android:summary="@string/battery_footer_summary"
+        android:title="@string/battery_footer_summary"
         android:selectable="false"
-        settings:searchable="false"
-        settings:layout="@layout/pengu_card_sub_sin" />
+        settings:searchable="false" />
 </PreferenceScreen>
