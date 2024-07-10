@@ -7177,7 +7177,8 @@
     <string name="keywords_esim_eid">eid</string>
     <string name="keywords_model_and_hardware">serial number, hardware version</string>
     <string name="keywords_battery_info">battery info, manufacture date, cycle count, first use</string>
-    <string name="keywords_android_version">android security patch level, baseband version, kernel version</string>
+    <string name="keywords_android_version">android security patch level, Android security update, More Info</string>
+    <string name="keywords_more_info">baseband version, kernel version</string>
     <!-- Search keywords for dark mode settings [CHAR LIMIT=NONE] -->
     <string name="keywords_dark_ui_mode">theme, light, dark, mode, light sensitivity, photophobia, make darker, darken, dark mode, migraine</string>
 
