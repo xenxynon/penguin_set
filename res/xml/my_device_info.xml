@@ -43,8 +43,7 @@
     <com.penguin.widget.ShrinkablePreference
         android:key="ota_card"
         android:order="-100"
-        settings:layout="@layout/pengu_tp_view">
-    </Preference>
+        settings:layout="@layout/pengu_tp_view" />
 
     <PreferenceCategory
         android:key="device_detail_category"

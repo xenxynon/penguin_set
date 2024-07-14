@@ -240,7 +240,7 @@ public class SettingsGateway {
             ModuleLicensesDashboard.class.getName(),
             ManageApplications.class.getName(),
             FirmwareVersionSettings.class.getName(),
-	    MoreInfoSettings.class.getname(),
+	    MoreInfo.class.getName(),
             ManageAssist.class.getName(),
             ProcessStatsUi.class.getName(),
             NotificationStation.class.getName(),

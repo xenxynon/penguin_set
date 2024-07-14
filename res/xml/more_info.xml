@@ -11,7 +11,7 @@
         android:summary="@string/summary_placeholder"
         android:selectable="false"
         settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.BuildDatePreferenceController"/>
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.moreinfo.BuildDatePreferenceController"/>
 
     <!-- Kernel -->
     <Preference
@@ -20,7 +20,7 @@
         android:summary="@string/summary_placeholder"
         android:selectable="false"
         settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.versionstuff.KernelVersionPreferenceController"/>
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.moreinfo.KernelVersionPreferenceController"/>
 
 
     <!-- Baseband -->
@@ -30,7 +30,7 @@
         android:summary="@string/summary_placeholder"
         android:selectable="false"
         settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.versionstuff.BasebandVersionPreferenceController"/>
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.moreinfo.BasebandVersionPreferenceController"/>
 
 
 </PreferenceScreen>

@@ -1,14 +1,28 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        android:gravity="center"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
- <ImageView
-        android:layout_width="625dp"
-        android:layout_height="100dp"
-        android:src="@drawable/ic_penguin_logo"
-        android:adjustViewBounds="true"
-        android:scaleType="centerInside"
-        android:layout_marginTop="10dp"
-	android:layout_marginBottom="10dp"
-        android:tint="?android:attr/colorAccent" />
-</LinearLayout>
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:background="@android:color/transparent"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:androidprv="http://schemas.android.com/apk/prv/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="fill_parent"
+        android:layout_height="142.0dip"
+        android:layout_marginHorizontal="16.0dip"
+        android:layout_marginBottom="16.0dip"
+        app:cardBackgroundColor="@color/pengu_crd_bg"
+        app:strokeColor="?android:textColorPrimaryInverse"
+        app:strokeWidth="3.0dip"
+        app:cardCornerRadius="28.0dip"
+        app:cardElevation="0.0dip"
+        app:rippleColor="@android:color/transparent">
+        <ImageView
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_penguin_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20.0dip" />
+    </com.google.android.material.card.MaterialCardView>
+</FrameLayout>

@@ -133,15 +133,13 @@
         settings:controller="com.android.settings.accessibility.TopLevelAccessibilityPreferenceController"/>
 
     <com.android.settings.widget.HomepagePreference
-        android:fragment="com.android.settings.security.SecuritySettings"
         android:icon="@drawable/ic_homepage_security"
         android:key="top_level_security"
         android:order="-27"
         settings:layout="@layout/pengu_card_mid"
         android:title="@string/security_settings_title"
-        android:summary="@string/security_dashboard_summary"
-        settings:highlightableMenuKey="@string/menu_key_security"
-        settings:controller="com.android.settings.security.TopLevelSecurityEntryPreferenceController"/>
+        settings:highlightableMenuKey="@string/menu_key_safety_center"
+        settings:controller="com.android.settings.safetycenter.TopLevelSafetyCenterEntryPreferenceController"/>
 
     <com.android.settings.widget.HomepagePreference
         android:fragment="com.android.settings.location.LocationSettings"

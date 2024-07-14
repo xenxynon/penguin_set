@@ -18,7 +18,7 @@
      <!-- Others Page -->
     <string name="more_info">More Info</string>
      <string name="more_info_summary">See more Information</string>
-    <string name="battery_info_summary">view more information about battery</string>
+    <string name="battery_info_summary">View more information about battery</string>
 
      <!-- Model and Hardware -->
     <string name="net_info">Network</string>
