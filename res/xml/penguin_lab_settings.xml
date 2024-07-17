@@ -21,6 +21,45 @@
         android:selectable="false"
         settings:searchable="false" />
 
+    <Preference
+        android:key="always_on_display_schedule"
+        android:title="@string/always_on_display_schedule_title"
+        android:fragment="com.android.settings.dashboard.AODSchedule"
+        settings:layout="@layout/pengu_card_sub_top" />
+
+    <!-- Heads up -->
+    <co.aospa.framework.preference.GlobalSettingSwitchPreference
+        android:key="heads_up_notifications_enabled"
+        android:title="@string/heads_up_title"
+	android:summary="@string/heads_up_summary"
+	android:defaultValue="false"
+        settings:layout="@layout/pengu_card_sub_mid" />
+
+    <co.aospa.framework.preference.SystemSettingSwitchPreference
+        android:key="less_boring_heads_up"
+        android:dependency="heads_up_notifications_enabled"
+        android:title="@string/less_boring_heads_up_title"
+        android:summary="@string/less_boring_heads_up_summary"
+        android:defaultValue="false"
+        settings:layout="@layout/pengu_card_sub_mid" />
+
+    <co.aospa.framework.preference.SecureSettingListPreference
+        android:key="qs_show_brightness_slider"
+        android:title="@string/qs_show_brightness_slider_title"
+        android:entries="@array/qs_show_brightness_slider_entries"
+        android:entryValues="@array/qs_show_brightness_slider_values"
+        android:defaultValue="1"
+        settings:layout="@layout/pengu_card_sub_mid" />
+
+    <co.aospa.framework.preference.SecureSettingListPreference
+        android:key="qs_brightness_slider_position"
+        android:dependency="qs_show_brightness_slider"
+        android:title="@string/qs_brightness_slider_position_title"
+        android:entries="@array/qs_brightness_slider_position_entries"
+        android:entryValues="@array/qs_brightness_slider_position_values"
+        android:defaultValue="0"
+        settings:layout="@layout/pengu_card_sub_bot" />
+
     <!-- Unlock FPS for specific games -->
     <co.aospa.framework.preference.SystemSettingSwitchPreference
         android:key="persist.sys.pixelprops.games"
@@ -28,7 +67,6 @@
         android:summary="@string/use_games_spoof_summary"
         android:defaultValue="false"
         settings:layout="@layout/pengu_card_sub_top" />
-
 
     <co.aospa.framework.preference.SystemSettingSwitchPreference
         android:key="advanced_reboot"
