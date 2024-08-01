@@ -31,8 +31,8 @@
     <co.aospa.framework.preference.GlobalSettingSwitchPreference
         android:key="heads_up_notifications_enabled"
         android:title="@string/heads_up_title"
-	android:summary="@string/heads_up_summary"
-	android:defaultValue="false"
+        android:summary="@string/heads_up_summary"
+        android:defaultValue="false"
         settings:layout="@layout/pengu_card_sub_mid" />
 
     <co.aospa.framework.preference.SystemSettingSwitchPreference
@@ -42,6 +42,14 @@
         android:summary="@string/less_boring_heads_up_summary"
         android:defaultValue="false"
         settings:layout="@layout/pengu_card_sub_mid" />
+
+    <co.aospa.framework.preference.SecureSettingListPreference
+        android:key="qs_style_round"
+        android:title="@string/qs_style_title"
+        android:entries="@array/qs_style_entries"
+        android:entryValues="@array/qs_style_values"
+        android:defaultValue="1" 
+        settings:layout="@layout/pengu_card_sub_mid"/>
 
     <co.aospa.framework.preference.SecureSettingListPreference
         android:key="qs_show_brightness_slider"
