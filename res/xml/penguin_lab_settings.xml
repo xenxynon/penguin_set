@@ -66,6 +66,14 @@
         android:entries="@array/qs_brightness_slider_position_entries"
         android:entryValues="@array/qs_brightness_slider_position_values"
         android:defaultValue="0"
+        settings:layout="@layout/pengu_card_sub_mid" />
+
+    <co.aospa.framework.preference.SecureSettingListPreference
+        android:key="brightness_slider_style"
+        android:title="@string/brightness_slider_style_title"
+        android:entries="@array/brightness_slider_style_entries"
+        android:entryValues="@array/brightness_slider_style_values"
+        android:defaultValue="0"
         settings:layout="@layout/pengu_card_sub_bot" />
 
     <!-- Unlock FPS for specific games -->
