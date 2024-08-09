@@ -20,7 +20,7 @@
 
     <!-- Penguin maintainer -->
     <string name="maintainer">Maintainer</string>
-    <string name="penguin_maintainer" translatable="false">Unofficial Maintainer</string>
+    <string name="penguin_maintainer" translatable="false">𝙼𝚊𝚢𝚞𝚛</string>
 
     <!-- Ignore window secure -->
     <string name="ignore_window_secure_title">Ignore window secure flags</string>
