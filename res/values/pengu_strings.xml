@@ -34,4 +34,8 @@
     <!-- Volume panel to left -->
     <string name="volume_panel_on_left_title">Show volume panel on left</string>
     <string name="volume_panel_on_left_summary">Display volume panel on the left side of the screen</string>
+
+    <!-- Disable QS on lock screen -->
+    <string name="quick_settings_secure_lock_screen_title">Hide on secure lock screen</string>
+    <string name="quick_settings_secure_lock_screen_summary">Hide all quick settings in the notification shade while the device is locked</string>
 </resources>
