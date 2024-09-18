@@ -42,24 +42,6 @@
         android:summary="@string/less_boring_heads_up_summary"
         android:defaultValue="false"
         settings:layout="@layout/pengu_card_sub_mid" />
-        
-    <co.aospa.framework.preference.SecureSettingListPreference
-        android:key="status_bar_battery_style"
-        android:title="@string/status_bar_battery_style_title"
-        android:dialogTitle="@string/status_bar_battery_style_title"
-        android:entries="@array/status_bar_battery_style_entries"
-        android:entryValues="@array/status_bar_battery_style_values"
-        android:defaultValue="0"
-        settings:layout="@layout/pengu_card_sub_mid"/>
-
-    <co.aospa.framework.preference.SecureSettingListPreference
-        android:key="status_bar_show_battery_percent"
-        android:title="@string/status_bar_battery_percentage_title"
-        android:dialogTitle="@string/status_bar_battery_percentage_title"
-        android:entries="@array/battery_percent_entries"
-        android:entryValues="@array/battery_percent_values"
-        android:defaultValue="0"
-        settings:layout="@layout/pengu_card_sub_mid"/>
 
     <co.aospa.framework.preference.SecureSettingListPreference
         android:key="qs_style_round"
