@@ -38,4 +38,19 @@
     <!-- Disable QS on lock screen -->
     <string name="quick_settings_secure_lock_screen_title">Hide on secure lock screen</string>
     <string name="quick_settings_secure_lock_screen_summary">Hide all quick settings in the notification shade while the device is locked</string>
+
+     <!-- Status bar - Clock -->
+
+     <string name="status_bar_clock_position_title">Clock style</string>
+     <string name="status_bar_clock_position_right">Right</string>
+     <string name="status_bar_clock_position_left">Left</string>
+     <string name="status_bar_clock_position_center">Center</string>
+     <string name="status_bar_clock_position_hidden">Hidden</string>
+     <string name="status_bar_clock_auto_hide_title">Auto hide</string>
+     <string name="status_bar_clock_auto_hide_launcher_summary">Hide clock if launcher is visible</string>
+     <string name="status_bar_clock_auto_hide_summary">Hide clock at regular interval</string>
+     <string name="status_bar_clock_auto_hide_hdur_title">Hide duration</string>
+     <string name="status_bar_clock_auto_hide_hdur_summary">Number of seconds to hide clock</string>
+     <string name="status_bar_clock_auto_hide_sdur_title">Show duration</string>
+     <string name="status_bar_clock_auto_hide_sdur_summary">Number of seconds to wait before hiding clock</string
 </resources>
